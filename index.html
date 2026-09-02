@@ -7,7 +7,7 @@
 <meta name="description" content="Personal Organizer em Curitiba especializada em preparar o quarto do bebê e organizar espaços infantis. Primeira conversa gratuita.">
 <meta property="og:title" content="Amanda Galvão — Personal Organizer em Curitiba">
 <meta property="og:description" content="O quarto do seu bebê pronto, sem você precisar mover um dedo.">
-<meta property="og:image" content="assets/quarto-bebe.png">
+<meta property="og:image" content="quarto-bebe.png">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -181,7 +181,7 @@
 
 <section id="topo">
   <div class="hero-sticky">
-    <video id="hero-video" src="assets/hero.mp4" muted playsinline preload="auto" aria-hidden="true" tabindex="-1"></video>
+    <video id="hero-video" src="hero.mp4" muted playsinline preload="auto" aria-hidden="true" tabindex="-1"></video>
     <div class="hero-veil"></div>
     <div class="hero-content">
       <div class="hero-row">
@@ -204,7 +204,7 @@
   <div class="wrap split">
     <div class="split-media">
       <h2>Você quer que tudo esteja perfeito.<br><em>Mas o tempo — e o corpo — não estão cooperando.</em></h2>
-      <img src="assets/quarto-bebe.png" alt="Amanda Galvão organizando prateleira de quarto de bebê" loading="lazy">
+      <img src="quarto-bebe.png" alt="Amanda Galvão organizando prateleira de quarto de bebê" loading="lazy">
     </div>
     <div class="split-text">
       <p>Montar o quarto do bebê deveria ser uma das partes mais bonitas da gestação. Mas na prática, vira uma lista enorme de coisas a fazer — enquanto você ainda trabalha, sente seu corpo mudando e tenta dar conta de tudo.</p>
@@ -296,15 +296,15 @@
         </div>
       </div>
     </div>
-    <img src="assets/armario-toalhas.png" alt="Amanda Galvão organizando armário de toalhas" loading="lazy">
+    <img src="armario-toalhas.png" alt="Amanda Galvão organizando armário de toalhas" loading="lazy">
   </div>
 </section>
 
 <section class="strip">
   <div class="wrap">
-    <img src="assets/pelucias.png" alt="Cesto de pelúcias organizado em quarto infantil" loading="lazy">
-    <img src="assets/sala.png" alt="Sala organizada com almofadas alinhadas no sofá" loading="lazy">
-    <img src="assets/despensa.png" alt="Despensa organizada com potes e etiquetas" loading="lazy">
+    <img src="pelucias.png" alt="Cesto de pelúcias organizado em quarto infantil" loading="lazy">
+    <img src="sala.png" alt="Sala organizada com almofadas alinhadas no sofá" loading="lazy">
+    <img src="despensa.png" alt="Despensa organizada com potes e etiquetas" loading="lazy">
   </div>
 </section>
 
@@ -330,7 +330,7 @@
 
 <section id="sobre">
   <div class="wrap about">
-    <img src="assets/enxoval.png" alt="Amanda Galvão com pilha de roupinhas de bebê dobradas" loading="lazy">
+    <img src="enxoval.png" alt="Amanda Galvão com pilha de roupinhas de bebê dobradas" loading="lazy">
     <div class="about-text">
       <span class="eyebrow">Sobre</span>
       <h2>Quem vai cuidar do seu espaço</h2>
@@ -412,7 +412,7 @@
   // baixamos o arquivo inteiro e trocamos por um Blob local — seek frame-accurate mesmo
   // se o MP4 não tiver keyframes frequentes. A troca preserva o currentTime.
   if (!reduce) {
-    fetch('assets/hero.mp4')
+    fetch('hero.mp4')
       .then(function (r) { return r.ok ? r.blob() : Promise.reject(); })
       .then(function (b) {
         var t = video.currentTime;
