@@ -187,19 +187,17 @@
   .met-head h2 { font-size:clamp(34px,4.2vw,62px); line-height:1.04; letter-spacing:-.02em; }
   .met-head h2 em { color:var(--ink); }
   .met-lead { display:flex; flex-direction:column; gap:18px; font-size:17px; line-height:1.7; color:var(--ink-muted); }
-  .met-spectrum { display:grid; grid-template-columns:repeat(9,1fr); height:10px; }
-  .met-spectrum + .met-legend { display:flex; justify-content:space-between; margin-top:10px; font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-muted); }
   .met-bens { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(28px,3vw,48px); }
-  .met-ben { display:flex; flex-direction:column; gap:14px; padding-top:22px; border-top:0; background:linear-gradient(90deg,#A08BAD,#6E8FA8,#8FAF8A,#DDBB5E,#E0A46E,#C0755F,#D79FA8,#E8DCC8,#8B7355,#9B9B99,#2D2926) top / 100% 1px no-repeat; }
+  .met-ben { display:flex; flex-direction:column; gap:14px; padding-top:22px; border-top:0; }
   .met-ben h3 { font-size:28px; line-height:1.1; }
   .met-ben p { font-size:15px; line-height:1.7; color:var(--ink-muted); }
   .met-where { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2.2fr); gap:clamp(24px,4vw,64px); background:var(--bg-warm); padding:clamp(28px,4vw,52px); }
   .met-where ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; }
-  .met-where li { display:grid; grid-template-columns:minmax(150px,220px) minmax(0,1fr); gap:20px; padding:18px 0; background:linear-gradient(90deg,#A08BAD,#6E8FA8,#8FAF8A,#DDBB5E,#E0A46E,#C0755F,#D79FA8,#E8DCC8,#8B7355,#9B9B99,#2D2926) top / 100% 1px no-repeat; font-size:15px; line-height:1.6; color:var(--ink-muted); }
-  .met-where li:first-child { background:none; padding-top:0; }
+  .met-where li { display:grid; grid-template-columns:minmax(150px,220px) minmax(0,1fr); gap:20px; padding:18px 0; font-size:15px; line-height:1.6; color:var(--ink-muted); }
+  .met-where li:first-child { padding-top:0; }
   .met-where li strong { font-family:var(--serif); font-weight:400; font-size:22px; line-height:1.2; color:var(--ink); }
   .ba-sub { font-size:16px; color:var(--ink-muted); margin:0; }
-  .met-why { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.3fr); gap:clamp(32px,5vw,80px); padding-top:clamp(40px,5vw,72px); background:linear-gradient(90deg,#A08BAD,#6E8FA8,#8FAF8A,#DDBB5E,#E0A46E,#C0755F,#D79FA8,#E8DCC8,#8B7355,#9B9B99,#2D2926) top / 100% 1px no-repeat; }
+  .met-why { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.3fr); gap:clamp(32px,5vw,80px); padding-top:clamp(40px,5vw,72px); }
   .met-why h3 { font-size:clamp(30px,3.4vw,48px); line-height:1.06; letter-spacing:-.02em; color:var(--gold); }
   .met-why-text { display:flex; flex-direction:column; gap:18px; font-size:16px; line-height:1.7; color:var(--ink-muted); }
   .met-why-text ul { margin:0; padding-left:18px; display:flex; flex-direction:column; gap:8px; }
@@ -253,6 +251,7 @@
     </div>
   </div>
 </section>
+<div aria-hidden="true" style="height:clamp(140px,18vw,260px); margin-top:-1px; background:linear-gradient(180deg, #2E2622 0%, #3B322D 18%, #6E625A 45%, #B5A99F 72%, #EBE4DD 100%);"></div>
 
 <section style="background:var(--bg-warm)">
   <div class="wrap split">
@@ -384,11 +383,10 @@
   </div>
 </section>
 
-<section id="antes-depois" style="background:#F5F0E8">
+<section id="antes-depois" style="background:var(--bg-warm)">
   <div class="wrap stack">
     <div class="ba-head">
       <h2>Não é sobre o que eu falo.<br><em>É sobre o que eu faço.</em></h2>
-      <p class="ba-sub">Arrasta pro lado e vê a transformação.</p>
     </div>
     <div class="ad-grid">
       <figure class="ad">
@@ -459,8 +457,8 @@
         <footer>— Kethleen, Curitiba</footer>
       </blockquote>
       <blockquote>
-        <p>"Estava em mudança e com medo de acabar numa bagunça maior. Ela organizou tudo antes de eu entrar. Foi incrível."</p>
-        <footer>— Carlos M., Curitiba</footer>
+        <p>"Eu sinceramente achava que já era organizada. Mas quando a Amanda veio analisar meu armário do banheiro, ela trouxe um olhar completamente diferente — a mudança que fez foi cirúrgica, muito mais otimizada do que a minha."</p>
+        <footer>— Camila, Curitiba</footer>
       </blockquote>
       <blockquote>
         <p>"Contratamos achando que seria um serviço caro, mas foi o contrário. Ela entendeu a rotina da nossa família melhor do que nós mesmos."</p>
