@@ -43,7 +43,7 @@
     font-size:12px; letter-spacing:.08em; text-transform:uppercase; transition:background-color .2s ease,color .2s ease; }
 
   /* HERO */
-  #topo { height:500vh; position:relative; padding:0; }
+  #topo { height:250vh; position:relative; padding:0; }
   .hero-sticky { position:sticky; top:0; height:100vh; overflow:hidden;
     background:radial-gradient(120% 90% at 50% 20%, #46403a 0%, var(--ink) 70%); }
   .hero-sticky video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
@@ -539,7 +539,7 @@
   function tick() {
     raf = null;
     var p = progress();
-    cur += (p - cur) * 0.12;
+    cur += (p - cur) * 0.2;
     if (Math.abs(p - cur) < 0.0005) cur = p;
     meter.textContent = Math.round(cur * 100) + '%';
     if (!reduce && video.duration && isFinite(video.duration) && !video.seeking) {
